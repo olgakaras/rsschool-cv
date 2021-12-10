@@ -57,7 +57,7 @@ function squareDigits(num){
 * __Gomel State Technical University named after P.O. Sukhoi__ - Year of graduation: 2021. - Qualification: engineer-system programmer-game designer (Bachelors degree).
 * __Gomel State Technical University named after P.O. Sukhoi__ - Year of graduation: 2023. - Speciality: Computer science and programming technologies (Master's degree).
 * __JavaScript Manual__ on [learnjavascript.ru](https://learn.javascript.ru/) (In progress).
-* __RS Schools Course__ «JavaScript/Front-end. Stage 1» (In progress).
+* __RS Schools Course__ «JavaScript/Front-end» (In progress).
 
 ## 📚 Languages
 
