@@ -51,6 +51,9 @@ function squareDigits(num){
 ## 👨‍💻 Experience
 
 * I have little experience in JS and Frontend development. I am currently working for a small private company and developing on two sites.
+* CSS Mem Slider (html, css) - Git:[](https://github.com/olgakaras/cssMemSlider) - Deploy: [](https://olgakaras.github.io/cssMemSlider/cssMemSlider/slider.html).
+* Momentum (html, css, js) - Deploy: [](https://rolling-scopes-school.github.io/olgakaras-JSFE2021Q3/momentum/).
+* Museum (html, css) - Deploy: [](https://rolling-scopes-school.github.io/olgakaras-JSFE2021Q3/museum/).
 
 ## 🎓 Education & Courses
 
