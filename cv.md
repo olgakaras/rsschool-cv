@@ -22,6 +22,7 @@ __Strengths:__
 
 __Experience:__ at the moment I am developing two websites for selling products.  
 __Hobbies:__ arm wrestling, dancing.
+
 __Video-CV__ you can see here [Pleasant viewing](https://www.youtube.com/watch?v=aJbQjnavh5Q).
 
 ## 🧩 Skills & Proficiency
