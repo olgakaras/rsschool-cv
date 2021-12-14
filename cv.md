@@ -8,7 +8,7 @@
 * __E-mail:__ olga.karas123@gmail.com
 * __GitHub:__ [olgakaras](https://github.com/olgakaras)
 * __Telegram:__ @OlgaKarass
-* __Discord:__ OlgaKaras#3676
+* __Discord:__ olgakaras#3676
 
 ## 📝 Brief information about yourself
 
