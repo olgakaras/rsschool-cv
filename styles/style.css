@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* 
+h2 {
+  color: rgb(253, 253, 253);
+  position: absolute;
+  margin: 25%;
+}
+
+
+.circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 350%;
+  background: #000;
+
+  position: relative;
+  overflow: hidden;
+  border: 5px solid #1a1a1a;
+}
+
+.circle::after {
+  content: "";
+  position: absolute;
+  top: 35%; 
+  width: 200%;
+  height: 200%;
+  left: -50%;
+
+  background: rgba(0, 119, 255, 0.616);
+  box-shadow: 0 0 20px #1a7dff;
+
+  border-radius: 35%;
+  animation: rotate 10s linear forwards infinite;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
