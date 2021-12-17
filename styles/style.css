@@ -8,8 +8,15 @@
 
 html {
   scroll-behavior: smooth;
+  background-color: rgb(200, 194, 184);
 }
 
+.h2__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
 
 /* 
 h2 {

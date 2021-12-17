@@ -1,3 +1,59 @@
 .main {
-  background-color: brown;
+  /* display: flex;
+  flex-direction: row;
+  align-items: stretch; */
+  background-color: rgb(255, 255, 255);
+  margin: 0 20% 0 20%;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.hr-vertical-lines {
+  /* margin: 20px 0;
+  padding: 0; */
+  width: 62%;
+
+  height: 10px;
+  border: none;
+  /* color: rgb(255, 166, 0); */
+  background-image: linear-gradient(90deg, rgb(63, 59, 51), rgb(253, 177, 0) 33.33%, transparent 33.33%, transparent 100%);
+  background-size: 3px 100%;
+}
+
+.job {
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.74);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-left: 2%;
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.74);
+  margin: 1% 10% 1% 10%;
+  padding: 3%;
+  border-radius: 35px;
+  color: white;
+}
+
+.about-me__text {
+  margin-right: 4%;
+}
+
+.p__text {
+  margin-top: 3%;
+  font-family: 'Arbutus Slab', serif;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.about-me__photo {
+  width: 200px;
+  border-radius: 50%;
 }
