@@ -93,7 +93,7 @@
     <div class="block-info">
       <section class="block-1">
         <div class="skills">
-          <h2>Skills</h2>
+          <h2 class="block-1__h2">Skills</h2>
           <ul>
             <li>HTML5, CSS3</li>
             <li>JavaScript Basics</li>
@@ -104,11 +104,11 @@
           </ul>
         </div>
         <div class="experience">
-          <h2>Experience</h2>
+          <h2 class="block-1__h2">Experience</h2>
 
         </div>
         <div class="code">
-          <h2>Code example</h2>
+          <h2 class="block-1__h2">Code example</h2>
           <p>
             Square Every Digit from CODEWARS: In this kata, you are asked to square every digit of a number and concatenate them. For example, if we run 9119 through the function, 811181 will come out, because 92 is 81 and 12 is 1.
           </p>
@@ -117,21 +117,21 @@
           </p>
           <code>
             <pre>
-              function squareDigits(num){
-                let count = num.toString();
-                let res = [];
-                for (let i=0; i&lt;count.length; i++){
-                  res.push(parseInt(count[i]));
-                  res[i] = res[i] * res[i];
-                }
-                res = +res.join('');
-                return res;
-              }
+function squareDigits(num){
+  let count = num.toString();
+  let res = [];
+  for (let i=0; i&lt;count.length; i++){
+    res.push(parseInt(count[i]));
+    res[i] = res[i] * res[i];
+  }
+  res = +res.join('');
+  return res;
+}
             </pre>
           </code>
         </div>
         <div class="video">
-          <h2>Video</h2>
+          <h2 class="block-1__h2">Video</h2>
           <iframe width="300" height="200" src="https://www.youtube.com/embed/aJbQjnavh5Q?list=PLoEdLgfMRZdVV01e8i7gBoVCYvrD5EiBk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </section>
