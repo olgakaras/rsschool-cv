@@ -94,14 +94,36 @@
       <section class="block-1">
         <div class="skills">
           <h2 class="block-1__h2">Skills</h2>
-          <ul>
-            <li>HTML5, CSS3</li>
-            <li>JavaScript Basics</li>
-            <li>Git, GitHub</li>
-            <li>VS Code, IntelliJ IDEA</li>
-            <li>TypeScript Basics</li>
-            <li>Node.js Basics</li>
-          </ul>
+          <div class="container__skills">
+            <ul>
+              <li>HTML5, CSS3</li>
+              <div class="circle circle-progress-81">
+                <h2 class="h2__progres">81%</h2>
+              </div>
+              <li>JavaScript</li>
+              <div class="circle circle-progress-60">
+                <h2 class="h2__progres">60%</h2>
+              </div>
+              <li>Git, GitHub</li>
+              <div class="circle circle-progress-88">
+                <h2 class="h2__progres">88%</h2>
+              </div>
+            </ul>
+            <ul>
+              <li>VS Code, IntelliJ IDEA</li>
+              <div class="circle circle-progress-93">
+                <h2 class="h2__progres">93%</h2>
+              </div>
+              <li>TypeScript Basics</li>
+              <div class="circle circle-progress-40">
+                <h2 class="h2__progres">40%</h2>
+              </div>
+              <li>Node.js Basics</li>
+              <div class="circle circle-progress-50">
+                <h2 class="h2__progres">50%</h2>
+              </div>
+            </ul>
+          </div>
         </div>
         <div class="experience">
           <h2 class="block-1__h2">Experience</h2>
@@ -109,24 +131,30 @@
         </div>
         <div class="code">
           <h2 class="block-1__h2">Code example</h2>
-          <p>
-            Square Every Digit from CODEWARS: In this kata, you are asked to square every digit of a number and concatenate them. For example, if we run 9119 through the function, 811181 will come out, because 92 is 81 and 12 is 1.
+          <h3 class="h3__text">
+            Square Every Digit from CODEWARS:
+          </h3>
+          <p class="p__text p-margin">
+            In this kata, you are asked to square every digit of a number and concatenate them. For example, if we run 9119 through the function, 811181 will come out, because 92 is 81 and 12 is 1.
           </p>
-          <p>
-            Note: The function accepts an integer and returns an integer.
+          <h3 class="h3__text">
+            Note:
+          </h3>
+          <p class="p__text p-margin">
+            The function accepts an integer and returns an integer.
           </p>
           <code>
             <pre>
-function squareDigits(num){
-  let count = num.toString();
-  let res = [];
-  for (let i=0; i&lt;count.length; i++){
-    res.push(parseInt(count[i]));
-    res[i] = res[i] * res[i];
-  }
-  res = +res.join('');
-  return res;
-}
+    function squareDigits(num){
+      let count = num.toString();
+      let res = [];
+      for (let i=0; i&lt;count.length; i++){
+        res.push(parseInt(count[i]));
+        res[i] = res[i] * res[i];
+      }
+      res = +res.join('');
+      return res;
+    }
             </pre>
           </code>
         </div>
@@ -204,8 +232,5 @@ function squareDigits(num){
       <img src="https://rs.school/images/rs_school_js.svg" class="li__img" alt="Image rsschool">
     </a>
   </footer>
-  <!-- <div class="circle">
-    <h2>81%</h2>
-  </div> -->
 </body>
 </html>

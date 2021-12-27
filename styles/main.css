@@ -2,6 +2,7 @@
   /* display: flex;
   flex-direction: row;
   align-items: stretch; */
+  font-family: "Montserrat", sans-serif;
   background-color: rgb(255, 255, 255);
   margin: 0 20% 0 20%;
 }
@@ -69,6 +70,7 @@
   justify-content: space-around;
   margin: 5% 10% 1% 10%;
   /* width: 100%; */
+  font-family: "Montserrat", sans-serif;
 }
 
 .block-1 {
@@ -90,19 +92,26 @@
 
 .block-1__h2 {
   position: relative;
-  right: 25px; top: -15px;
+  right: 25px;
+  top: -15px;
   max-width: 70%;
   padding: 2%;
   text-align: center;
 
-  /* font-family: "Montserrat", sans-serif;
-  font-size: 17px; */
   text-transform: uppercase;
   letter-spacing: 5px;
-  font-size: 19px;
+  font-size: 15px;
 
   border-radius: 7px;
   background-color: rgb(63, 63, 63);
+}
+
+.container__skills {
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .skills {
@@ -115,4 +124,17 @@
 
 .code {
   margin-bottom: 8%;
+}
+
+.h3__text {
+  font-size: 16px;
+}
+
+.p-margin {
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+iframe {
+  margin-left: 6%;
 }
