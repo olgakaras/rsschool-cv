@@ -27,7 +27,6 @@
       <ul>
         <li><a class="menu__item" href="#">About me</a></li>
         <li><a class="menu__item" href="#">Skills</a></li>
-        <li><a class="menu__item" href="#">Projects</a></li>
         <li><a class="menu__item" href="#">Experience</a></li>
         <li><a class="menu__item" href="#">Languages</a></li>
         <li><a class="menu__item" href="#">Education</a></li>
@@ -42,29 +41,29 @@
     <div class="contacts" id="contact">
       <ul>
         <li>
-          <img src="./assets/email.png" class="li__img">
+          <img src="./assets/email.png" class="li__img" alt="Image email">
           <a href="mailto:olga.karas123@gmail.com">
             olga.karas123@gmail.com
           </a>
         </li>
         <li>
-          <img src="./assets/mobile-phone.png" class="li__img">
+          <img src="./assets/mobile-phone.png" class="li__img" alt="Image phone">
           <a href="tel:+375(29)1876367">
             +375 (29) 187-63-67
           </a>
         </li>
         <li>
-          <img src="./assets/telegram.png" class="li__img">
+          <img src="./assets/telegram.png" class="li__img" alt="Image telegram">
           @OlgaKarass
         </li>
         <li>
-          <img src="./assets/github.png" class="li__img">
+          <img src="./assets/github.png" class="li__img" alt="Image github">
           <a href="https://github.com/olgakaras">
             olgakaras
           </a>
         </li>
         <li>
-          <img src="./assets/discord.png" class="li__img">
+          <img src="./assets/discord.png" class="li__img" alt="Image discord">
           olgakaras#3676
         </li>
       </ul>
@@ -89,19 +88,120 @@
            I hope!Hello! My name is Olga! I hope!Hello! My name is Olga! 
            I hope!</p>
       </div>
-      <img src="./assets/photo.jpg" class="about-me__photo">
+      <img src="./assets/photo.jpg" alt="Olga's photo" class="about-me__photo">
     </section>
+    <div class="block-info">
+      <section class="block-1">
+        <div class="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>HTML5, CSS3</li>
+            <li>JavaScript Basics</li>
+            <li>Git, GitHub</li>
+            <li>VS Code, IntelliJ IDEA</li>
+            <li>TypeScript Basics</li>
+            <li>Node.js Basics</li>
+          </ul>
+        </div>
+        <div class="experience">
+          <h2>Experience</h2>
+
+        </div>
+        <div class="code">
+          <h2>Code example</h2>
+          <p>
+            Square Every Digit from CODEWARS: In this kata, you are asked to square every digit of a number and concatenate them. For example, if we run 9119 through the function, 811181 will come out, because 92 is 81 and 12 is 1.
+          </p>
+          <p>
+            Note: The function accepts an integer and returns an integer.
+          </p>
+          <code>
+            <pre>
+              function squareDigits(num){
+                let count = num.toString();
+                let res = [];
+                for (let i=0; i&lt;count.length; i++){
+                  res.push(parseInt(count[i]));
+                  res[i] = res[i] * res[i];
+                }
+                res = +res.join('');
+                return res;
+              }
+            </pre>
+          </code>
+        </div>
+        <div class="video">
+          <h2>Video</h2>
+          <iframe width="300" height="200" src="https://www.youtube.com/embed/aJbQjnavh5Q?list=PLoEdLgfMRZdVV01e8i7gBoVCYvrD5EiBk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </section>
+
+      <section class="block-2">
+        <div class="education">
+          <h2>Education</h2>
+          <div>
+            <div>
+              <p>2017-2021</p>
+              <div>
+                <h3>GSTU</h3>
+                <p>Speciality</p>
+                <ul>
+                  <li>engineer-system programmer-game designer</li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <p>2021-2023</p>
+              <div>
+                <h3>GSTU</h3>
+                <p>Computer science and programming technologies</p>
+              </div>
+            </div>
+            <div>
+              <p>2021-2022</p>
+              <div>
+                <h3>RS Schools Course</h3>
+                <p>JavaScript/Front-end</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="languages">
+          <h2>Languages</h2>
+          <div>
+            <div>
+              <h3>English</h3>
+              <!-- Линия прогресса -->
+            </div>
+            <div>
+              <h3>Russian</h3>
+              <!-- Линия прогресса -->
+            </div>
+          </div>
+        </div>
+        <div class="strengths">
+          <h2>Strengths</h2>
+          <ul>
+            <li>quick learning</li>
+            <li>communication skills</li>
+            <li>desire to learn</li>
+            <li>decision-making ability</li>
+            <li>initiative</li>
+          </ul>
+        </div>
+      </section>
+    </div>
   </main>
   <footer class="footer">
     <div class="footer__github">
-      <img src="./assets/github.png" class="li__img">
+      <img src="./assets/github.png" class="li__img" alt="Image github">
       <a href="https://github.com/olgakaras">
         olgakaras
       </a>
     </div>
     <p>© 2021</p>
     <a href="https://rs.school/js/">
-      <img src="https://rs.school/images/rs_school_js.svg" class="li__img">
+      <img src="https://rs.school/images/rs_school_js.svg" class="li__img" alt="Image rsschool">
     </a>
   </footer>
   <!-- <div class="circle">
