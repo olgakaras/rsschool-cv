@@ -24,6 +24,23 @@ html {
   margin: 25%;
 }
 
+.univ__h3 {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.speciality {
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 300;
+}
+
+.qualification {
+  font-size: 12px;
+  font-style: oblique;
+}
+
 .circle {
   display: flex;
   justify-content: center;

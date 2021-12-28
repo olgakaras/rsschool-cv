@@ -68,6 +68,7 @@
 .block-info {
   display: flex;
   justify-content: space-around;
+  align-items: stretch;
   margin: 5% 10% 1% 10%;
   /* width: 100%; */
   font-family: "Montserrat", sans-serif;
@@ -137,4 +138,60 @@
 
 iframe {
   margin-left: 6%;
+}
+
+.education {
+  margin-left: 5%;
+}
+
+.h2__block-2 {
+  position: relative;
+  top: -9px;
+
+  background-color: rgb(255, 187, 0);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 15px;
+
+  border-radius: 7px;
+  padding: 2% 5%;
+  
+}
+
+.container__education {
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.university-1 {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: flex-start;
+  margin-bottom: 4%
+}
+
+.p__year {
+  background-color: rgb(63, 63, 63);
+  font-size: 13px;
+  color: white;
+  padding: 3%;
+
+  font-style: oblique;
+  font-weight: 100;
+}
+
+.description {
+  max-width: 200px;
+  margin-left: 5%;
+}
+
+.languages {
+  margin-left: 5%;
+}
+
+
+
+.strengths {
+  margin-left: 5%;
 }
