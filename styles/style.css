@@ -19,8 +19,9 @@ html {
 }
 
 .h2__progres {
-  color: rgb(253, 253, 253);
+  color: rgba(253, 253, 253, 0.76);
   position: absolute;
+  z-index: 1;
   margin: 25%;
 }
 
@@ -63,7 +64,7 @@ html {
   height: 200%;
   left: -50%;
 
-  background: rgba(0, 119, 255, 0.616);
+  background: rgba(0, 119, 255, 0.89);
   box-shadow: 0 0 20px #1a7dff;
 
   border-radius: 35%;

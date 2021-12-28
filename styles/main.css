@@ -88,7 +88,7 @@
   max-width: 48%;
   flex-grow: 1;
 
-  background-color: aquamarine;
+  background-color: rgba(199, 194, 194, 0.692);
 }
 
 .block-1__h2 {
@@ -186,12 +186,49 @@ iframe {
   margin-left: 5%;
 }
 
+/* Секция с языками */
 .languages {
   margin-left: 5%;
 }
 
+/* Прогресс для секции с иностранными языками */
+.pie-chart {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  position: relative;
 
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  margin: auto;
 
+  background: conic-gradient(rgb(0, 195, 26) 160deg, rgba(39, 39, 39, 0.383) 160deg);
+}
+
+.pie-chart span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 45px;
+}
+
+.pie-chart::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 150px;
+  width: 150px;
+  background: white;
+  border-radius: 50%;
+}
+
+/* Секция с комуникативными навыками */
 .strengths {
   margin-left: 5%;
 }
