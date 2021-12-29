@@ -42,6 +42,8 @@ html {
   font-style: oblique;
 }
 
+/* Прогресс для скилов */
+
 .circle {
   display: flex;
   justify-content: center;

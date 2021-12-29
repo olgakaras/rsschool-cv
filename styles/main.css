@@ -155,7 +155,6 @@ iframe {
 
   border-radius: 7px;
   padding: 2% 5%;
-  
 }
 
 .container__education {
@@ -168,7 +167,7 @@ iframe {
   display: flex;
   /* justify-content: space-between; */
   align-items: flex-start;
-  margin-bottom: 4%
+  margin-bottom: 4%;
 }
 
 .p__year {
@@ -191,21 +190,43 @@ iframe {
   margin-left: 5%;
 }
 
+.container__languages {
+  margin-bottom: 3vh;
+}
+
+.h3__lang {
+  margin-left: 2vw;
+  font-size: 18px;
+  font-style: italic;
+}
+
 /* Прогресс для секции с иностранными языками */
+.pie-chart__russian {
+  background: conic-gradient(
+    rgb(0, 195, 26) 350deg,
+    rgba(39, 39, 39, 0.383) 350deg
+  );
+}
+
+.pie-chart__eng {
+  background: conic-gradient(
+    rgb(0, 195, 26) 170deg,
+    rgba(39, 39, 39, 0.383) 170deg
+  );
+}
+
 .pie-chart {
-  height: 250px;
-  width: 250px;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
   position: relative;
 
-  font-size: 45px;
+  font-size: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  margin: auto;
 
-  background: conic-gradient(rgb(0, 195, 26) 160deg, rgba(39, 39, 39, 0.383) 160deg);
+  margin: auto;
 }
 
 .pie-chart span {
@@ -213,7 +234,7 @@ iframe {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 45px;
+  font-size: 25px;
 }
 
 .pie-chart::before {
@@ -222,8 +243,8 @@ iframe {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
   background: white;
   border-radius: 50%;
 }
@@ -231,4 +252,15 @@ iframe {
 /* Секция с комуникативными навыками */
 .strengths {
   margin-left: 5%;
+}
+
+.ul__strengths {
+  font-size: 15px;
+  margin-left: 3vw;
+  margin-bottom: 3vw;
+  list-style: circle;
+}
+
+.img__strengths {
+  margin-right: 1vw;
 }
