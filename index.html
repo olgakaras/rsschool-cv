@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Montserrat:ital,wght@0,500;1,600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Montserrat:ital,wght@0,500;1,600&display=swap" rel="stylesheet">
 
-  <link href="./styles/style.css" rel="stylesheet"/>
+  <link href="./styles/style.css" rel="stylesheet" media="screen"/>
   <link href="./styles/header.css" rel="stylesheet"/>
   <link href="./styles/main.css" rel="stylesheet"/>
   <link href="./styles/footer.css" rel="stylesheet"/>
@@ -76,9 +76,10 @@
   <main class="main">
     <section class="info">
         <hr class="hr-vertical-lines">
-        <p class="job">software engineer</p>
+        <h2 class="job">software engineer</h2>
     </section>
-    <section class="about-me">
+    <section class="about-me" id="aboutme">
+      <img src="./assets/photo.jpg" alt="Olga's photo" class="about-me__photo">
       <div class="about-me__text">
         <h2 class="h2__title">About me</h2>
         <p class="p__text">Hello! My name is Olga! I hope!Hello! My name is Olga! 
@@ -88,44 +89,55 @@
            I hope!Hello! My name is Olga! I hope!Hello! My name is Olga! 
            I hope!</p>
       </div>
-      <img src="./assets/photo.jpg" alt="Olga's photo" class="about-me__photo">
     </section>
     <div class="block-info">
       <section class="block-1">
-        <div class="skills">
+        <div class="skills" id="skills">
           <h2 class="block-1__h2">Skills</h2>
           <div class="container__skills">
             <ul>
-              <li>HTML5, CSS3</li>
-              <div class="circle circle-progress-81">
-                <h2 class="h2__progres">81%</h2>
-              </div>
-              <li>JavaScript</li>
-              <div class="circle circle-progress-60">
-                <h2 class="h2__progres">60%</h2>
-              </div>
-              <li>Git, GitHub</li>
-              <div class="circle circle-progress-88">
-                <h2 class="h2__progres">88%</h2>
-              </div>
+              <li class="skill__li">
+                <h2>HTML5, CSS3</h2>
+                <div class="circle circle-progress-81">
+                  <h2 class="h2__progres">81%</h2>
+                </div>
+              </li>
+              <li class="skill__li">
+                <h2>JavaScript</h2>
+                <div class="circle circle-progress-60">
+                  <h2 class="h2__progres">60%</h2>
+                </div>
+              </li>
+              <li class="skill__li">
+                <h2>Git, GitHub</h2>
+                <div class="circle circle-progress-88">
+                  <h2 class="h2__progres">88%</h2>
+                </div>
+              </li>
             </ul>
             <ul>
-              <li>VS Code, IntelliJ IDEA</li>
-              <div class="circle circle-progress-93">
-                <h2 class="h2__progres">93%</h2>
-              </div>
-              <li>TypeScript Basics</li>
-              <div class="circle circle-progress-40">
-                <h2 class="h2__progres">40%</h2>
-              </div>
-              <li>Node.js Basics</li>
-              <div class="circle circle-progress-50">
-                <h2 class="h2__progres">50%</h2>
-              </div>
+              <li class="skill__li">
+                <h2>VS Code, IntelliJ IDEA</h2>
+                <div class="circle circle-progress-93">
+                  <h2 class="h2__progres">93%</h2>
+                </div>
+              </li>
+              <li class="skill__li">
+                <h2>TypeScript Basics</h2>
+                <div class="circle circle-progress-40">
+                  <h2 class="h2__progres">40%</h2>
+                </div>
+              </li>
+              <li class="skill__li">
+                <h2>Node.js Basics</h2>
+                <div class="circle circle-progress-50">
+                  <h2 class="h2__progres">50%</h2>
+                </div>
+              </li>
             </ul>
           </div>
         </div>
-        <div class="code">
+        <div class="code" id="code">
           <h2 class="block-1__h2">Code example</h2>
           <h3 class="h3__text">
             Square Every Digit from CODEWARS:
@@ -139,8 +151,9 @@
           <p class="p__text p-margin">
             The function accepts an integer and returns an integer.
           </p>
-          <code>
+          
             <pre>
+              <!-- <code>
     function squareDigits(num){
       let count = num.toString();
       let res = [];
@@ -151,17 +164,17 @@
       res = +res.join('');
       return res;
     }
+             </code> -->
             </pre>
-          </code>
         </div>
-        <div class="video">
+        <div class="video" id="video">
           <h2 class="block-1__h2">Video</h2>
-          <iframe width="300" height="200" src="https://www.youtube.com/embed/aJbQjnavh5Q?list=PLoEdLgfMRZdVV01e8i7gBoVCYvrD5EiBk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <!-- <iframe width="300" height="200" src="https://www.youtube.com/embed/aJbQjnavh5Q?list=PLoEdLgfMRZdVV01e8i7gBoVCYvrD5EiBk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
         </div>
       </section>
 
       <section class="block-2">
-        <div class="education">
+        <div class="education" id="education">
           <h2 class="h2__block-2">Education</h2>
           <div class="container__education">
             <div class="university-1">
@@ -191,7 +204,7 @@
             </div>
           </div>
         </div>
-        <div class="languages">
+        <div class="languages" id="languages">
           <h2 class="h2__block-2">Languages</h2>
           <div class="container__languages">
             <div>
@@ -204,7 +217,7 @@
             </div>
           </div>
         </div>
-        <div class="strengths">
+        <div class="strengths" id="strengths">
           <h2 class="h2__block-2">Strengths</h2>
           <ul class="ul__strengths">
             <li><img src="./assets/2__communication.png" alt="Image communication skills" class="img__strengths"/>Communication Skills</li>
@@ -214,7 +227,7 @@
             <li><img src="./assets/3__desire-to-learn.png" alt="Image Desire To Learn" class="img__strengths"/>Desire To Learn</li>
           </ul>
         </div>
-        <div class="experience">
+        <div class="experience" id="experience">
           <h2 class="h2__block-2">Experience</h2>
           <ul class="ul__experience">
             <li>I have little experience in JS and Frontend development. 

@@ -23,6 +23,7 @@ html {
   position: absolute;
   z-index: 1;
   margin: 25%;
+  font-size: 18px;
 }
 
 .univ__h3 {

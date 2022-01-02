@@ -3,15 +3,15 @@
   flex-direction: row;
   align-items: stretch;
   background-color: rgb(255, 255, 255);
-  margin: 0 20% 0 20%;
+  margin: 0 20vw 0 20vw;
 }
 
 .contacts {
   font-family: "Montserrat", sans-serif;
-  font-size: 18px;
+  font-size: 0.8rem;
 
   background-color: rgba(255, 166, 0, 0.856);
-  padding: 3% 10% 1% 10%;
+  padding: 3vh 5vw 1vh 5vw;
   color: white;
   border-radius: 0 0 35px 0;
   /* flex-grow: 1; */
@@ -25,9 +25,9 @@ li {
 }
 
 .li__img {
-  width: 32px;
-  height: 32px;
-  margin-right: 3%;
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-right: 2vw;
 }
 
 a {
@@ -45,18 +45,37 @@ a:hover {
   align-items: flex-end;
   justify-content: center;
   flex-grow: 2;
-  padding: 0 10% 0 0;
+  padding: 0 6vw 0 0;
 }
 
 .h1__name {
   font-family: "Montserrat", sans-serif;
-  font-size: 75px;
+  font-size: 3.5rem;
   color: rgba(0, 0, 0, 0.74);
   font-weight: bold;
 }
 
 .h2__lastname {
   font-family: "Montserrat", sans-serif;
-  font-size: 40px;
+  font-size: 2rem;
   color: rgb(255, 172, 17);
+}
+
+@media (max-width: 321px) {
+  .header {
+    flex-direction: column;
+    margin: 0 10vw 0 10vw;
+  }
+
+  .contacts {
+    font-size: 0.75rem;
+  }
+
+  .h1__name {
+    font-size: 2.5rem;
+  }
+
+  .h2__lastname {
+    font-size: 1.4rem;
+  }
 }
