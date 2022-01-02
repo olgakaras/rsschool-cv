@@ -67,8 +67,8 @@ html {
   height: 200%;
   left: -50%;
 
-  background: rgba(0, 119, 255, 0.89);
-  box-shadow: 0 0 20px #1a7dff;
+  background: #33CC00;
+  box-shadow: 0 0 20px #91fa71;
 
   border-radius: 35%;
   animation: rotate 10s linear forwards infinite;

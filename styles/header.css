@@ -10,7 +10,7 @@
   font-family: "Montserrat", sans-serif;
   font-size: 0.8rem;
 
-  background-color: rgba(255, 166, 0, 0.856);
+  background-color: #F29F05;
   padding: 3vh 5vw 1vh 5vw;
   color: white;
   border-radius: 0 0 35px 0;
@@ -58,10 +58,10 @@ a:hover {
 .h2__lastname {
   font-family: "Montserrat", sans-serif;
   font-size: 2rem;
-  color: rgb(255, 172, 17);
+  color: #F29F05;
 }
 
-@media (max-width: 321px) {
+@media (max-width: 850px) {
   .header {
     flex-direction: column;
     margin: 0 10vw 0 10vw;

@@ -70,7 +70,7 @@
   display: flex;
   justify-content: space-around;
   align-items: stretch;
-  margin: 5% 10% 0 10%;
+  margin: 5% 10% 0% 10%;
   padding-bottom: 1%;
   /* width: 100%; */
   font-family: "Montserrat", sans-serif;
@@ -82,7 +82,7 @@
   padding: 1%;
 
   border-radius: 15px;
-  background-color: rgb(255, 187, 0);
+  background-color: #F2B705;
   color: white;
 }
 
@@ -90,7 +90,7 @@
   max-width: 48%;
   flex-grow: 1;
 
-  background-color: rgba(199, 194, 194, 0.692);
+  /* background-color: rgba(199, 194, 194, 0.692); */
 }
 
 .block-1__h2 {
@@ -142,10 +142,6 @@
   margin-bottom: 5%;
 }
 
-iframe {
-  margin-left: 6%;
-}
-
 .education {
   margin-left: 5%;
 }
@@ -154,7 +150,7 @@ iframe {
   position: relative;
   top: -9px;
 
-  background-color: rgb(255, 187, 0);
+  background-color: #F2B705;
   text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 15px;
@@ -209,14 +205,14 @@ iframe {
 /* Прогресс для секции с иностранными языками */
 .pie-chart__russian {
   background: conic-gradient(
-    rgb(0, 195, 26) 350deg,
+    #33CC00 350deg,
     rgba(39, 39, 39, 0.383) 350deg
   );
 }
 
 .pie-chart__eng {
   background: conic-gradient(
-    rgb(0, 195, 26) 170deg,
+    #33CC00 170deg,
     rgba(39, 39, 39, 0.383) 170deg
   );
 }
@@ -286,7 +282,15 @@ iframe {
   color: black;
 }
 
-@media (max-width: 321px) {
+video {
+  margin: 0 1% 0 1%;
+  width: 100%;
+  height: 200px;
+  border-radius: 5%;
+}
+
+@media (max-width: 850px) {
+
   .main {
     margin: 0 10vw 0 10vw;
   }
@@ -299,6 +303,7 @@ iframe {
     display: block;
     flex-direction: column-reverse;
     justify-content: center;
+    margin-bottom: 10%;
   }
 
   .about-me__photo {
@@ -312,9 +317,37 @@ iframe {
 
   .block-1 {
     max-width: 100%;
+    margin-bottom: 7%;
+  }
+
+  code {
+    font-size: 10px;
+  }
+
+  .code {
+    margin-bottom: 1%;
   }
 
   .block-2 {
     max-width: 100%;
+    margin-bottom: 1%;
+  }
+}
+
+@media (max-width: 488px) {
+  video {
+    margin-top: -7%;
+  }
+}
+
+@media (max-width: 450px) {
+  video {
+    margin-top: -10%;
+  }
+}
+
+@media (max-width: 375px) {
+  video {
+    margin-top: -18%;
   }
 }

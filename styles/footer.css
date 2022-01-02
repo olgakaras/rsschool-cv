@@ -14,3 +14,9 @@
   flex-direction: row;
   align-items: center;
 }
+
+@media (max-width: 850px) {
+  .footer {
+    margin: 0 10vw 0 10vw;
+  }
+}
