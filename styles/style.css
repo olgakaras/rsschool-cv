@@ -1,0 +1,105 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: rgb(200, 194, 184);
+}
+
+.h2__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.h2__progres {
+  color: rgba(253, 253, 253, 0.76);
+  position: absolute;
+  z-index: 1;
+  margin: 25%;
+  font-size: 18px;
+}
+
+.univ__h3 {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.speciality {
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 300;
+}
+
+.qualification {
+  font-size: 12px;
+  font-style: oblique;
+}
+
+/* Прогресс для скилов */
+
+.circle {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  height: 50px;
+  width: 50px;
+  border-radius: 350%;
+  background: #000;
+
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #1a1a1a;
+}
+
+.circle::after {
+  content: "";
+  position: absolute;
+  /* top: 35%; */
+  width: 200%;
+  height: 200%;
+  left: -50%;
+
+  background: #33CC00;
+  box-shadow: 0 0 20px #91fa71;
+
+  border-radius: 35%;
+  animation: rotate 10s linear forwards infinite;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.circle-progress-81::after {
+  top: 35%;
+}
+
+.circle-progress-60::after {
+  top: 45%;
+}
+
+.circle-progress-88::after {
+  top: 30%;
+}
+
+.circle-progress-93::after {
+  top: 25%;
+}
+
+.circle-progress-40::after {
+  top: 55%;
+}
+
+.circle-progress-50::after {
+  top: 50%;
+}

@@ -4,9 +4,255 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Montserrat:ital,wght@0,500;1,600&display=swap" rel="stylesheet">
+
+  <link href="./styles/style.css" rel="stylesheet" media="screen"/>
+  <link href="./styles/header.css" rel="stylesheet"/>
+  <link href="./styles/main.css" rel="stylesheet"/>
+  <link href="./styles/footer.css" rel="stylesheet"/>
+  <link href="./styles/nav.css" rel="stylesheet"/>
+
+  <title>CV</title>
 </head>
 <body>
-  
+  <div class="hamburger-menu">
+    <input id="menu__toggle" type="checkbox" />
+    <label class="menu__btn" for="menu__toggle">
+      <span></span>
+    </label>
+    <nav class="menu__box">
+      <ul>
+        <li><a class="menu__item" href="#aboutme">About me</a></li>
+        <li><a class="menu__item" href="#skills">Skills</a></li>
+        <li><a class="menu__item" href="#experience">Experience</a></li>
+        <li><a class="menu__item" href="#languages">Languages</a></li>
+        <li><a class="menu__item" href="#education">Education</a></li>
+        <li><a class="menu__item" href="#code">Code</a></li>
+        <li><a class="menu__item" href="#video">Video</a></li>
+        <li><a class="menu__item" href="#contact">Contact</a></li>
+        <li><a class="menu__item" href="#strengths">Strengths</a></li>
+      </ul>
+    </nav>
+  </div>
+  <header class="header">
+    <div class="contacts" id="contact">
+      <ul>
+        <li>
+          <img src="./assets/email.png" class="li__img" alt="Image email">
+          <a href="mailto:olga.karas123@gmail.com">
+            olga.karas123@gmail.com
+          </a>
+        </li>
+        <li>
+          <img src="./assets/mobile-phone.png" class="li__img" alt="Image phone">
+          <a href="tel:+375(29)1876367">
+            +375 (29) 187-63-67
+          </a>
+        </li>
+        <li>
+          <img src="./assets/telegram.png" class="li__img" alt="Image telegram">
+          @OlgaKarass
+        </li>
+        <li>
+          <img src="./assets/github.png" class="li__img" alt="Image github">
+          <a href="https://github.com/olgakaras">
+            olgakaras
+          </a>
+        </li>
+        <li>
+          <img src="./assets/discord.png" class="li__img" alt="Image discord">
+          olgakaras#3676
+        </li>
+      </ul>
+    </div>
+    <div class="names">
+      <h1 class="h1__name">Olga</h1>
+      <h2 class="h2__lastname">Karas</h2>
+    </div>
+  </header>
+  <main class="main">
+    <section class="info">
+        <hr class="hr-vertical-lines">
+        <h2 class="job">software engineer</h2>
+    </section>
+    <section class="about-me" id="aboutme">
+      <img src="./assets/photo.jpg" alt="Olga's photo" class="about-me__photo">
+      <div class="about-me__text">
+        <h2 class="h2__title">About me</h2>
+        <p class="p__text">Hello! My name is Olga and I live in Gomel. 
+          I’m 21 years old and I graduated from university this summer. 
+          Now I work as a software engineer for a private company. 
+          I graduated from Gomel State Technical University named P.O. Sukhoi. 
+          I studied “information systems and technologies in the gaming industry”.
+           I’m currently studying for a master’s degree and also attending the JavaScript / Front-end course at RSSchool. </p>
+      </div>
+    </section>
+    <div class="block-info">
+      <section class="block-1">
+        <div class="skills" id="skills">
+          <h2 class="block-1__h2">Skills</h2>
+          <div class="container__skills">
+            <ul>
+              <li class="skill__li">
+                <h2>HTML5, CSS3</h2>
+                <div class="circle circle-progress-81">
+                  <h2 class="h2__progres">81%</h2>
+                </div>
+              </li>
+              <li class="skill__li">
+                <h2>JavaScript</h2>
+                <div class="circle circle-progress-60">
+                  <h2 class="h2__progres">60%</h2>
+                </div>
+              </li>
+              <li class="skill__li">
+                <h2>Git, GitHub</h2>
+                <div class="circle circle-progress-88">
+                  <h2 class="h2__progres">88%</h2>
+                </div>
+              </li>
+            </ul>
+            <ul>
+              <li class="skill__li">
+                <h2>VS Code, IntelliJ IDEA</h2>
+                <div class="circle circle-progress-93">
+                  <h2 class="h2__progres">93%</h2>
+                </div>
+              </li>
+              <li class="skill__li">
+                <h2>TypeScript Basics</h2>
+                <div class="circle circle-progress-40">
+                  <h2 class="h2__progres">40%</h2>
+                </div>
+              </li>
+              <li class="skill__li">
+                <h2>Node.js Basics</h2>
+                <div class="circle circle-progress-50">
+                  <h2 class="h2__progres">50%</h2>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="code" id="code">
+          <h2 class="block-1__h2">Code example</h2>
+          <h3 class="h3__text">
+            Square Every Digit from CODEWARS:
+          </h3>
+          <p class="p__text p-margin">
+            In this kata, you are asked to square every digit of a number and concatenate them. For example, if we run 9119 through the function, 811181 will come out, because 92 is 81 and 12 is 1.
+          </p>
+          <h3 class="h3__text">
+            Note:
+          </h3>
+          <p class="p__text p-margin">
+            The function accepts an integer and returns an integer.
+          </p>
+          
+            <pre>
+              <code>
+  function squareDigits(num){
+    let count = num.toString();
+    let res = [];
+    for (let i=0; i&lt;count.length; i++){
+      res.push(parseInt(count[i]));
+      res[i] = res[i] * res[i];
+    }
+    res = +res.join('');
+    return res;
+  }
+             </code>
+            </pre>
+        </div>
+        <div class="video" id="video">
+          <h2 class="block-1__h2">Video</h2>
+          <video controls poster="./assets/youtube.png">
+            <source src="./assets/self-introduction.mp4" type="video/mp4">
+          </video>
+        </div>
+      </section>
+
+      <section class="block-2">
+        <div class="education" id="education">
+          <h2 class="h2__block-2">Education</h2>
+          <div class="container__education">
+            <div class="university-1">
+              <p class="p__year">2017-2021</p>
+              <div class="description">
+                <h3 class="univ__h3">GSTU</h3>
+                <p class="speciality">Information systems and technologies
+                  (in the gaming industry)</p>
+                <ul>
+                  <li class="qualification">engineer-system programmer-game designer</li>
+                </ul>
+              </div>
+            </div>
+            <div class="university-1">
+              <p class="p__year">2021-2023</p>
+              <div class="description">
+                <h3 class="univ__h3">GSTU</h3>
+                <p class="speciality">Computer science and programming technologies</p>
+              </div>
+            </div>
+            <div class="university-1">
+              <p class="p__year">2021-2022</p>
+              <div class="description">
+                <h3 class="univ__h3">RS Schools Course</h3>
+                <p class="speciality">JavaScript / Front-end</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="languages" id="languages">
+          <h2 class="h2__block-2">Languages</h2>
+          <div class="container__languages">
+            <div>
+              <h3 class="h3__lang">English</h3>
+              <div class="pie-chart pie-chart__eng"><span>A2</span></div>
+            </div>
+            <div>
+              <h3 class="h3__lang">Russian</h3>
+              <div class="pie-chart pie-chart__russian"><span>Native</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="strengths" id="strengths">
+          <h2 class="h2__block-2">Strengths</h2>
+          <ul class="ul__strengths">
+            <li><img src="./assets/2__communication.png" alt="Image communication skills" class="img__strengths"/>Communication Skills</li>
+            <li><img src="./assets/1__quick-learning.png" alt="Image quick learning" class="img__strengths"/>Quick Learning</li>
+            <li><img src="./assets/5_satisfaction.png" alt="Image Initiative" class="img__strengths"/>Initiative</li>
+            <li><img src="./assets/4_graduation.png" alt="Image Decision-Making Ability" class="img__strengths"/>Decision-Making Ability</li>
+            <li><img src="./assets/3__desire-to-learn.png" alt="Image Desire To Learn" class="img__strengths"/>Desire To Learn</li>
+          </ul>
+        </div>
+        <div class="experience" id="experience">
+          <h2 class="h2__block-2">Experience</h2>
+          <ul class="ul__experience">
+            <li>I have little experience in JS and Frontend development. 
+                I am currently working for a small private company and developing on two sites.</li>
+            <li><a href="https://olgakaras.github.io/cssMemSlider/cssMemSlider/slider.html" class="li__experience">CSS Mem Slider (html, css)</a></li>
+            <li><a href="https://rolling-scopes-school.github.io/olgakaras-JSFE2021Q3/momentum/" class="li__experience">Momentum (html, css, js)</a></li>
+            <li><a href="https://rolling-scopes-school.github.io/olgakaras-JSFE2021Q3/museum/" class="li__experience">Museum (html, css)</a></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer__github">
+      <img src="./assets/github.png" class="li__img" alt="Image github">
+      <a href="https://github.com/olgakaras">
+        olgakaras
+      </a>
+    </div>
+    <p>© 2021</p>
+    <a href="https://rs.school/js/">
+      <img src="https://rs.school/images/rs_school_js.svg" class="li__img" alt="Image rsschool">
+    </a>
+  </footer>
 </body>
 </html>
