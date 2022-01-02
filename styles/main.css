@@ -1,0 +1,353 @@
+.main {
+  /* display: flex;
+  flex-direction: row;
+  align-items: stretch; */
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(255, 255, 255);
+  margin: 0 20vw 0 20vw;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.hr-vertical-lines {
+  /* margin: 20px 0;
+  padding: 0; */
+  width: 62%;
+
+  height: 10px;
+  border: none;
+  /* color: rgb(255, 166, 0); */
+  background-image: linear-gradient(
+    90deg,
+    rgb(63, 59, 51),
+    rgb(253, 177, 0) 33.33%,
+    transparent 33.33%,
+    transparent 100%
+  );
+  background-size: 3px 100%;
+}
+
+.job {
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.74);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-left: 2%;
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.74);
+  margin: 1% 10% 1% 10%;
+  padding: 3%;
+  border-radius: 35px;
+  color: white;
+}
+
+.about-me__text {
+  margin-right: 4%;
+}
+
+.p__text {
+  margin-top: 3%;
+  font-family: "Arbutus Slab", serif;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.about-me__photo {
+  max-width: 200px;
+  border-radius: 50%;
+  margin-right: 2%;
+}
+
+.block-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  margin: 5% 10% 0% 10%;
+  padding-bottom: 1%;
+  /* width: 100%; */
+  font-family: "Montserrat", sans-serif;
+}
+
+.block-1 {
+  max-width: 48%;
+  flex-grow: 1;
+  padding: 1%;
+
+  border-radius: 15px;
+  background-color: #F2B705;
+  color: white;
+}
+
+.block-2 {
+  max-width: 48%;
+  flex-grow: 1;
+
+  /* background-color: rgba(199, 194, 194, 0.692); */
+}
+
+.block-1__h2 {
+  position: relative;
+  right: 25px;
+  top: -15px;
+  max-width: 70%;
+  padding: 2%;
+  text-align: center;
+
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 15px;
+
+  border-radius: 7px;
+  background-color: rgb(63, 63, 63);
+}
+
+.container__skills {
+  display: flex;
+  flex-direction: row;
+  font-size: 9px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.skill__li {
+  display: block;
+}
+
+.skills {
+  margin-bottom: 8%;
+}
+
+.experience {
+  margin-bottom: 8%;
+}
+
+.code {
+  margin-bottom: 8%;
+}
+
+.h3__text {
+  font-size: 16px;
+}
+
+.p-margin {
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+.education {
+  margin-left: 5%;
+}
+
+.h2__block-2 {
+  position: relative;
+  top: -9px;
+
+  background-color: #F2B705;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 15px;
+
+  border-radius: 7px;
+  padding: 2% 5%;
+}
+
+.container__education {
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.university-1 {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: flex-start;
+  margin-bottom: 4%;
+}
+
+.p__year {
+  background-color: rgb(63, 63, 63);
+  font-size: 13px;
+  color: white;
+  padding: 3%;
+
+  font-style: oblique;
+  font-weight: 100;
+}
+
+.description {
+  max-width: 200px;
+  margin-left: 5%;
+}
+
+/* Секция с языками */
+.languages {
+  margin-left: 5%;
+}
+
+.container__languages {
+  margin-bottom: 3vh;
+}
+
+.h3__lang {
+  margin-left: 2vw;
+  font-size: 18px;
+  font-style: italic;
+}
+
+/* Прогресс для секции с иностранными языками */
+.pie-chart__russian {
+  background: conic-gradient(
+    #33CC00 350deg,
+    rgba(39, 39, 39, 0.383) 350deg
+  );
+}
+
+.pie-chart__eng {
+  background: conic-gradient(
+    #33CC00 170deg,
+    rgba(39, 39, 39, 0.383) 170deg
+  );
+}
+
+.pie-chart {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  position: relative;
+
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: auto;
+}
+
+.pie-chart span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+
+.pie-chart::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100px;
+  width: 100px;
+  background: white;
+  border-radius: 50%;
+}
+
+/* Секция с комуникативными навыками */
+.strengths {
+  margin-left: 5%;
+}
+
+.ul__strengths {
+  font-size: 15px;
+  margin-left: 3vw;
+  margin-bottom: 2vh;
+  list-style: circle;
+}
+
+.img__strengths {
+  margin-right: 1vw;
+}
+
+/* Секция о опыте и проектах */
+.experience {
+  margin-left: 5%;
+}
+
+.ul__experience {
+  margin-left: 5%;
+  font-size: 14px;
+  color: black;
+}
+
+.li__experience {
+  color: black;
+}
+
+video {
+  margin: 0 1% 0 1%;
+  width: 100%;
+  height: 200px;
+  border-radius: 5%;
+}
+
+@media (max-width: 850px) {
+
+  .main {
+    margin: 0 10vw 0 10vw;
+  }
+
+  .job {
+    font-size: 14px;
+  }
+
+  .about-me {
+    display: block;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-bottom: 10%;
+  }
+
+  .about-me__photo {
+    max-width: 190px;
+    margin-bottom: 1%;
+  }
+
+  .block-info {
+    display: block;
+  }
+
+  .block-1 {
+    max-width: 100%;
+    margin-bottom: 7%;
+  }
+
+  code {
+    font-size: 10px;
+  }
+
+  .code {
+    margin-bottom: 1%;
+  }
+
+  .block-2 {
+    max-width: 100%;
+    margin-bottom: 1%;
+  }
+}
+
+@media (max-width: 488px) {
+  video {
+    margin-top: -7%;
+  }
+}
+
+@media (max-width: 450px) {
+  video {
+    margin-top: -10%;
+  }
+}
+
+@media (max-width: 375px) {
+  video {
+    margin-top: -18%;
+  }
+}
