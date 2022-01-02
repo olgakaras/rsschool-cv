@@ -69,7 +69,8 @@
   display: flex;
   justify-content: space-around;
   align-items: stretch;
-  margin: 5% 10% 1% 10%;
+  margin: 5% 10% 0 10%;
+  padding-bottom: 1%;
   /* width: 100%; */
   font-family: "Montserrat", sans-serif;
 }
@@ -257,7 +258,7 @@ iframe {
 .ul__strengths {
   font-size: 15px;
   margin-left: 3vw;
-  margin-bottom: 3vw;
+  margin-bottom: 2vh;
   list-style: circle;
 }
 
@@ -265,6 +266,17 @@ iframe {
   margin-right: 1vw;
 }
 
+/* Секция о опыте и проектах */
 .experience {
   margin-left: 5%;
+}
+
+.ul__experience {
+  margin-left: 5%;
+  font-size: 14px;
+  color: black;
+}
+
+.li__experience {
+  color: black;
 }
